@@ -1,0 +1,1313 @@
+@mixin phone-startscreen {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 45.7778rem;
+    }
+}
+
+@mixin phone-startscreen-wrapper {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 37.3889rem;
+        
+    }
+}
+
+@mixin phone-startscreen__header {
+    @media screen and (max-width: 767px){
+        width: 14.3333rem;
+        height: 3.3333rem;  
+        margin-left: 10.0008px;
+
+}
+}
+
+@mixin logo_sign {
+    @media screen and (max-width: 767px){
+padding-left: .1111rem;
+}
+}
+@mixin phone-startscreen__nav {
+    @media screen and (max-width: 767px){
+        display: none;
+}
+}
+
+@mixin burger {
+    @media screen and (max-width: 767px){
+        display: block;
+}
+}
+
+@mixin phone-startscreen__notonly {
+    @media screen and (max-width: 767px){
+        width: 100%;
+        height: 37.3889rem;
+  }
+}
+
+@mixin phone-startscreen__notonly-promotion {
+    @media screen and (max-width: 767px){
+        width: 100%;
+        height: 16.4444rem;
+        display: block;
+  }
+}
+
+@mixin phone-startscreen__notonly-promotion2 {
+    @media screen and (max-width: 767px){
+        width: 100%;
+        height: 16.4444rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+  }
+}
+
+@mixin phone-startscreen__notonly-heading {
+    @media screen and (max-width: 767px){
+        margin-top: 0;
+        width: 16.6667rem;
+height: 3.5556rem;
+        }
+}
+
+@mixin phone-startscreen__notonlyhead {
+    @media screen and (max-width: 767px){
+        display: block;
+font-size: 1.3889rem;
+line-height: 130%;
+letter-spacing: 0.06em;
+text-align: center;
+width: 80%;
+    margin: 0 auto;
+
+        }
+}
+
+@mixin phone-startscreen__notonly-subheading {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+height: 5.3333rem;
+font-size: 0.8333rem;
+line-height: 160%;
+text-align: center;
+
+        }
+}
+
+@mixin phone-startscreen__notonly-btn {
+    @media screen and (max-width: 767px){
+        margin: 0 auto;
+        margin-bottom: -0.3333rem;
+
+    }
+}
+
+@mixin phone-startscreen__notonly-btn-txt {
+    @media screen and (max-width: 767px){
+        padding-top: 0;
+        padding-bottom: 4px;
+
+    }
+}
+
+@mixin phone-startscreen__puppy {
+    @media screen and (max-width: 767px){
+        width: 14.4444rem;
+        height: 15.1111rem;
+        left: 0.8889rem;
+
+    }
+}
+
+
+
+
+
+
+
+
+/////about
+@mixin phone-about {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 54.1111rem;
+    }
+}
+
+@mixin phone-about-wrapper {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 49.4444rem;
+        padding-top: 2.2222rem;
+
+        
+    }
+}
+
+@mixin phone-about-dogs__img  {
+    @media screen and (max-width: 767px){
+        max-width: 14.4444rem;
+        height: 19.6667rem;
+        margin-left: 0;
+        margin-bottom: -40px;
+
+    }
+}
+
+@mixin phone-about-dogs__text  {
+    @media screen and (max-width: 767px){
+        max-width: 16.6667rem;
+        height: 27.4444rem;
+        margin: 0;
+        align-items: center;
+    }
+}
+
+@mixin dogs__text-heading  {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+height: 3.5556rem;
+font-size: 1.3889rem;
+line-height: 130%;
+letter-spacing: 0.06em;
+text-align: center;
+    }
+}
+
+@mixin aboutheading  {
+    @media screen and (max-width: 767px){
+        width: 80%;
+display: block;
+margin: 0 auto;
+
+    }
+}
+
+
+@mixin dogs__text-subheading  {
+    @media screen and (max-width: 767px){
+        width: 15rem;
+        height: 8rem;
+        line-height: 160%;
+        text-align: justify;
+        padding-top: 0.1111rem;
+    }
+}
+
+@mixin dogs__text-subheading2  {
+    @media screen and (max-width: 767px){
+        width: 15rem;
+        height: 13.2778rem;
+        font-size: 0.8333rem;
+        line-height: 160%;
+        text-align: justify;
+        padding-top: 0.1111rem;
+    }
+}
+
+
+
+
+
+
+////pets
+@mixin phone-pets  {
+    @media screen and (max-width: 767px){
+        max-width: 17.7778rem;
+        min-height:0;
+
+        height: 44rem;
+        
+
+    }
+}
+
+@mixin phone-pets-wrapper {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 39.3333rem;
+/*         margin:2.3333rem .5556rem;
+ */
+ padding-top: 40px;
+
+    }
+}
+
+@mixin phone-petsheading {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 3.5556rem;
+        font-size: 1.3889rem;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        margin-top: 0;
+    }
+}
+
+@mixin phone-pets-card__wrapper {
+    @media screen and (max-width: 767px){
+        width: 15rem;
+        height: 28.2222rem;
+        padding-top: 2.3333rem;
+        /*         margin-right: 2.3333rem;
+ */        flex-direction: column;
+        align-items: center;
+position: relative;
+margin-bottom: 3.8889rem;
+
+    }
+}
+
+@mixin phone-petarrow {
+    @media screen and (max-width: 767px){
+        position: absolute;
+        width: 2.8889rem;
+        height: 2.8889rem;
+    }
+}
+
+@mixin phone-petarrow-left {
+    @media screen and (max-width: 767px){
+        right: 9.6667rem;
+        top: 28.6444rem;
+    }
+}
+
+@mixin phone-petarrow-right {
+    @media screen and (max-width: 767px){
+        left:9.6667rem;
+        top: 28.6444rem;
+    }
+}
+
+
+@mixin phone-pets__card1 {
+    @media screen and (max-width: 767px){
+/* padding-right: 1rem;   
+ */width: 15rem;
+    height: 24.2222rem;
+    padding-top: 0.7778rem;
+    margin-left: 0;
+
+ }
+}
+
+@mixin phone-pets__card2 {
+    @media screen and (max-width: 767px){
+display: none;
+ }
+}
+
+@mixin phone-pets__card1-photo {
+    @media screen and (max-width: 767px){
+        background-position: -0.0222rem -0.1111rem;
+        background-size: 100% 100%;
+    }
+}
+
+@mixin phone-pets__card2-photo {
+    @media screen and (max-width: 767px){
+        background-position: 0 -0.1rem;
+
+    }
+}
+
+@mixin phone-pets__card1-name {
+    @media screen and (max-width: 767px){
+        margin-right: -2.5rem;
+/*         margin-left: -2.3333rem;
+ */
+ padding-top: 1.4222rem;
+
+}  
+     
+}
+
+@mixin phone-pets__card1-btn {
+    @media screen and (max-width: 767px){
+        margin-left: -0.01rem;
+        margin-top: 2.6667rem;
+
+    }
+}
+
+@mixin phone-pets__card2-name {
+    @media screen and (max-width: 767px){
+        margin-left: 0;
+        margin-bottom: 0.3333rem;
+        }
+}
+
+@mixin phone-pets__card2-btn {
+    @media screen and (max-width: 767px){
+        margin-bottom: 0.6667rem;
+    margin-left: 0rem;
+        }
+}
+
+@mixin phone-pets__card3 {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-pets__cardbtntxt {
+    @media screen and (max-width: 767px){
+        padding-top: 0.2222rem;
+    }
+}
+
+@mixin phone-pets__btn {
+    @media screen and (max-width: 767px){
+        position: relative;
+        top: 2.4444rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+///help
+@mixin phone-help  {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 41.4444rem;
+    }
+}
+
+
+@mixin phone-help-wrapper {
+    @media screen and (max-width: 767px){
+        width: 16.1111rem;
+        height: 100%;
+    }
+}
+
+@mixin phone-help-heading {
+    @media screen and (max-width: 767px){
+        position: relative;
+        width: 13.2222rem;
+        height: 3.5556rem;
+font-size: 1.3889rem;
+line-height: 130%;
+letter-spacing: 0.06em;
+top: 2.5556rem;
+
+    }
+}
+@mixin phone-help-helpslogan {
+    @media screen and (max-width: 767px){
+        display: block;
+        width: 80%;
+    }
+}
+
+
+@mixin phone-help-list {
+    @media screen and (max-width: 767px){
+        width: 16.1111rem;
+        height: 25rem;
+        position: relative;
+        bottom: 7.6667rem;
+        grid-template-rows:1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@mixin phone-help-list-everyitem {
+    @media screen and (max-width: 767px){
+        width: 7.2222rem;
+height: 4.8333rem;
+        justify-self: center;
+    }
+}
+
+@mixin phone-help-list-item1 {
+    @media screen and (max-width: 767px){
+        grid-row: 1/2;
+        grid-column:1/2;
+            padding-right: 2rem;
+            width: 7.2222rem;
+            height: 4.8333rem;
+    }
+}
+
+@mixin phone-help-list-item2 {
+    @media screen and (max-width: 767px){
+        grid-row: 1/2;
+        grid-column:2/3;
+        width: 7.2222rem;
+height: 4.8333rem;
+padding-right: 0;
+position: relative;
+right: 6px;
+}
+    }
+
+
+@mixin phone-help-list-item3 {
+    @media screen and (max-width: 767px){
+        grid-row: 2/3;
+        grid-column:1/2;
+        justify-self: center;
+    margin-left: 2.1111rem;
+    padding: 0;
+    width: 7.2222rem;
+height: 4.8333rem;
+}
+    
+}
+
+@mixin phone-help-list-item4 {
+    @media screen and (max-width: 767px){
+        grid-row: 2/3;
+        grid-column:2/3;
+        align-self: center;
+        justify-self: start;
+        width: 7.2222rem;
+height: 4.8333rem;
+padding-right: 0;
+    position: relative;
+    right: 0.2222rem;
+    }
+}
+
+@mixin phone-help-list-item5 {
+    @media screen and (max-width: 767px){
+        grid-row: 3/4;
+        grid-column:1/2;
+        justify-self: center;
+    align-self: center;
+    width: 7.2222rem;
+height: 4.8333rem;
+    }
+}
+
+@mixin phone-help-list-item6 {
+    @media screen and (max-width: 767px){
+        grid-row: 3/4;
+        grid-column:2/3;
+        align-self: center;
+        padding-right: 0.4444rem;
+        width: 7.2222rem;
+height: 4.8333rem;
+
+padding-right: 0;
+    position: relative;
+    right: 12px;
+    
+    }
+}
+
+@mixin phone-help-list-item7 {
+    @media screen and (max-width: 767px){
+        grid-row: 4/5;
+        grid-column:1/2;
+        justify-self: center;
+    padding-right: 2rem;
+    width: 7.2222rem;
+height: 4.8333rem;
+}
+    
+}
+
+@mixin phone-help-list-item8 {
+    @media screen and (max-width: 767px){
+        grid-row: 4/5;
+        grid-column:2/3;
+        justify-self: center;
+    padding-right: 3.3333rem;
+    width: 7.2222rem;
+height: 4.8333rem;
+
+padding-right: 0;
+position: relative;
+right: 2rem;
+    }
+}
+
+@mixin phone-help-list-item9 {
+    @media screen and (max-width: 767px){
+        grid-row: 5/6;
+        grid-column:1/2;
+        justify-self: end;
+    padding-left: 0.5556rem;
+    width: 7.2222rem;
+height: 4.8333rem;
+    }
+} 
+
+@mixin helpcard__img-wrapper {
+    @media screen and (max-width: 767px){
+
+    width: 2.7778rem;
+height: 2.7778rem;
+background-size: 92% 96%;
+    }
+}
+
+@mixin helpcard__img-wrapper2 {
+    @media screen and (max-width: 767px){
+
+    margin-right: 0.7778rem;
+    background-size: 92% 96%;
+    }
+}
+
+@mixin helpcard__img-wrapper3 {
+    @media screen and (max-width: 767px){
+
+    margin-top: 0.8889rem;
+    margin-right: 4.2222rem;
+    }
+}
+
+@mixin helpcard__img-wrapper4 {
+    @media screen and (max-width: 767px){
+
+    margin-top: 0.7222rem;
+    margin-right: 1.8889rem;}
+}
+
+@mixin helpcard__img-wrapper5 {
+    @media screen and (max-width: 767px){
+
+    margin-top: 2.0556rem;
+    margin-right: 2rem;}
+}
+
+@mixin helpcard__img-wrapper6 {
+    @media screen and (max-width: 767px){
+
+    margin-left: 0;
+    margin-right: 1.7689rem;
+    position: relative;
+    top: 2.5556rem;
+}}
+
+@mixin helpcard__img-wrapper7 {
+    @media screen and (max-width: 767px){
+
+    margin-top: 0.7222rem;
+    margin-right: 0;    
+    position: relative;
+    top: 3.2222rem;
+}}
+
+@mixin helpcard__img-wrapper8 {
+    @media screen and (max-width: 767px){
+
+    position: relative;
+    top: 3.1111rem;
+    left: 0.3333rem;
+    margin-top: 0.7222rem;
+    margin-right: 1.8889rem;
+}
+}
+@mixin helpcard__img-wrapper9 {
+    @media screen and (max-width: 767px){
+
+        margin-left:0;
+        margin-top: 0.7222rem;
+        margin-right: 3.9989rem;
+        position: relative;
+        top: 88px;
+}
+}
+@mixin phone-helpcard-name {
+    @media screen and (max-width: 767px){
+
+    width: 7.2222rem;
+height: 0.9444rem;
+font-size: 0.8333rem;
+line-height: 110%;
+letter-spacing: 0.06em;
+}}
+
+@mixin phone-helpcard-name1 {
+    @media screen and (max-width: 767px){
+
+    padding-left: 1.7778rem;
+    padding-left: 0;
+    position: relative;
+    left: 36px;
+}}
+
+@mixin phone-helpcard-name1 {
+    @media screen and (max-width: 767px){
+
+    padding-left: 1.7778rem; 
+
+}}
+
+@mixin phone-helpcard-name2 {
+    @media screen and (max-width: 767px){
+
+        padding-left: 0;
+        position: relative;
+        right: 6px;
+}}
+
+@mixin phone-helpcard-name3 {
+    @media screen and (max-width: 767px){
+
+    margin-bottom: -1rem;
+    margin-left: 1.1111rem;
+}}
+
+@mixin phone-helpcard-name4 {
+    @media screen and (max-width: 767px){
+
+    padding-top: 1rem;
+    margin-right: 1rem;
+    margin: 0;
+    position: relative;
+    right: 18px;
+}}
+
+@mixin phone-helpcard-name5 {
+    @media screen and (max-width: 767px){
+
+    margin-bottom: -2.2222rem;
+    margin-left: 0.7222rem;
+}}
+
+@mixin phone-helpcard-name6 {
+    @media screen and (max-width: 767px){
+
+    margin-left: 1.7778rem;
+    padding-top: 1rem;
+    margin-right: 0rem;
+    position: relative;
+    top: 1.5556rem;
+    width: 5.5556rem;
+    right: 1rem;
+}}
+
+@mixin phone-helpcard-name7 {
+    @media screen and (max-width: 767px){
+
+    padding-top: 0rem;
+    margin-right: -3rem;
+    position: relative;
+    top: 4.2222rem;
+    margin-left: 0;
+}}
+
+
+
+@mixin phone-helpcard-name8 {
+    @media screen and (max-width: 767px){
+
+    margin-left: 0;
+    padding-top: 1rem;
+    margin-right: 0;
+    position: relative;
+    top: 60px;
+    position: relative;
+    right: 12px;
+
+}}
+
+@mixin phone-helpcard-name9 {
+    @media screen and (max-width: 767px){
+
+    position: relative;
+    top: 88px;
+    right: 2px;margin-left: -1.6667rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+}}
+
+
+
+
+
+
+
+
+
+
+
+//// donation
+
+
+@mixin phone-donation  {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 30.1111rem;
+    }
+}
+
+@mixin phone-donation-wrapper {
+    @media screen and (max-width: 767px){
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 0.4444rem;
+
+    }
+}
+
+@mixin phone-donation-wrapper__item1 {
+    @media screen and (max-width: 767px){
+        width: 14.4444rem;
+        height: 7.5556rem;
+/*         margin-right: 3.1111rem;
+ */        margin-top: -1.6667rem;
+        margin-bottom: -20px;
+
+
+    }
+}
+
+@mixin phone-donation-wrapper__item2 {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 15.6667rem;
+/*         margin-top: 0;
+ */    margin-left: -0.1556rem;
+ margin-bottom: 12px;
+
+ margin-right: 0;
+ position: relative;
+ right: 4px;
+ padding: 0;
+    }
+}
+
+@mixin phone-donationItem2Heading {
+    @media screen and (max-width: 767px){
+width: 16.6667rem;
+height: 3.5556rem;
+font-size: 1.3889rem;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.06em;
+        
+    }
+}
+
+@mixin phone-donationspan {
+@media screen and (max-width: 767px){
+    width: 76%;
+display: inline-block;
+
+        
+    }
+}
+
+@mixin phone-donationItem2subHeading {
+    @media screen and (max-width: 767px){
+        width: 15.1667rem;
+        height: 1.3333rem;
+        font-weight: 400;
+
+        margin-top: 1rem;
+
+        padding-left: 14px;
+
+        font-size: 0.7333rem;
+        line-height: 160%;
+        
+    }
+}
+
+
+@mixin phone-donateWrapper {
+    @media screen and (max-width: 767px){
+        width: 282.0006px;
+        height: 43.9992px;  
+/*         margin-bottom: 13px;
+ */        margin-left: 0.4444rem;     
+    }
+}
+
+@mixin phone-donationPayNumber {
+    @media screen and (max-width: 767px){
+        width: 14rem;
+        height: 1.3333rem;       
+    }
+}
+
+@mixin phone-donationNumbers {
+    @media screen and (max-width: 767px){
+        width: 11.4444rem;
+        height: 1rem;     
+        font-size: 15px;
+line-height: 110%;  
+    }
+}
+
+@mixin phone-donationInfo {
+    @media screen and (max-width: 767px){
+        width: 15.5556rem;
+height: 5rem;
+
+font-style: italic;
+
+font-size: 0.6667rem;
+line-height: 1rem;
+text-align: center;
+    display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/////foooter
+
+
+@mixin phone-footer  {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 45rem;
+        
+    }
+}
+
+@mixin phone-footer-wrapper {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 26.1111rem;
+margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+}
+
+@mixin phone-footer-item1 {
+    @media screen and (max-width: 767px){
+        width: 15.4444rem;
+height: 11.5556rem;
+    }
+}
+
+@mixin phone-footer1heading {
+    @media screen and (max-width: 767px){
+        width: 15.4444rem;
+height: 3.5556rem;
+font-size: 1.3889rem;
+line-height: 130%;
+letter-spacing: 0.06em;
+padding-left: 0;
+padding-right: .5556rem;
+text-align: center;
+
+    }
+}
+
+@mixin phone-footerEmail {
+    @media screen and (max-width: 767px){
+        margin-left: 0.4778rem;
+    margin-top: -0.2222rem;
+    }
+}
+
+@mixin phone-footerEmailaddress {
+    @media screen and (max-width: 767px){
+        padding-left: 6px;
+
+    }
+}
+
+@mixin phone-phoneSymbol {
+    @media screen and (max-width: 767px){
+        margin-left: 0.7778rem;
+
+    }
+}
+
+@mixin phone-phonenumber {
+    @media screen and (max-width: 767px){
+        padding-left: 0.8333rem;
+        white-space: nowrap;
+    }
+}
+
+
+@mixin phone-footer-item2 {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+height: 12.3333rem;
+margin-top: 38px;
+    padding-left: 16px;
+    }
+}
+
+@mixin phone-footer2heading {
+    @media screen and (max-width: 767px){
+width: 15rem;
+height: 3.5556rem;
+font-size: 1.3889rem;
+line-height: 130%;
+letter-spacing: 0.06em;
+text-align: center;
+    }
+}
+
+@mixin phone-footer2Address {
+    @media screen and (max-width: 767px){
+        margin-left: -0.6667rem;
+
+    }
+}
+@mixin phone-footer2Address2 {
+    @media screen and (max-width: 767px){
+        margin-left: -0.6667rem;
+
+    }
+}
+
+
+
+
+@mixin phone-footer-item3 {
+    @media screen and (max-width: 767px){
+        width: 14.4444rem;
+height: 14.9444rem;
+top: 3.999rem;
+left: 1.1111rem;
+    }
+}
+
+@mixin phone-footer-email {
+    @media screen and (max-width: 767px){
+        padding-top: 0.2222rem;
+    }
+}
+
+@mixin phone-footer-phone {
+    @media screen and (max-width: 767px){
+        padding-top: 0.3333rem;
+    }
+}
+
+@mixin phone-footer-email-symbol {
+    @media screen and (max-width: 767px){
+        margin-left: -0.2222rem;
+        margin-top: -0.1111rem;    }
+}
+
+@mixin phone-footer-phone-symbol {
+    @media screen and (max-width: 767px){
+        margin-left: -0.2222rem;
+        margin-top: -0.1111rem;    }
+}
+
+@mixin phone-footer-address-symbol {
+    @media screen and (max-width: 767px){
+       
+        margin-top: 0;    }
+}
+
+@mixin phone-footer-google-symbol {
+    @media screen and (max-width: 767px){
+       
+        margin-top: 0; 
+       }
+}
+
+@mixin phone-footer-footer2address {
+    @media screen and (max-width: 767px){
+       
+        margin-top: 0.4444rem;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+///// header2
+
+@mixin phone-header2  {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 6.6667rem;
+        
+    }
+}
+
+@mixin phone-header2-wrapper {
+    @media screen and (max-width: 767px){
+        width: 14.4444rem;
+        height: 3.3333rem;
+        margin: 0 30.0006px;
+        position: relative;
+        bottom: 1rem;
+        right: 1.1111rem;
+    }
+}
+
+@mixin phone-header2-navigation {
+    @media screen and (max-width: 767px){
+        display: none;
+
+    }
+}
+
+
+
+
+
+
+////pets2
+
+@mixin phone-pets2  {
+    @media screen and (max-width: 767px){
+        width: 17.7778rem;
+        height: 91.6111rem;
+        margin-bottom: -19px;
+
+    }
+}
+
+@mixin phone-pets2-wrapper {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 86.9444rem;
+       
+    }
+}
+
+@mixin phone-pets2-heading {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+        height: 3.5556rem;
+                font-size: 1.3889rem;
+        line-height: 130%; 
+        margin-top: -1rem;
+padding-top: 0;
+       }
+}
+
+
+@mixin phone-pets2-card__wrapper {
+    @media screen and (max-width: 767px){
+        width: 15rem;
+        height: 75.8333rem;
+       
+    }
+}
+
+@mixin phone-pets2-card {
+    @media screen and (max-width: 767px){
+        width: 15rem;
+        height: 24.1667rem;
+       
+    }
+}
+
+@mixin phone-pets2-card1 {
+    @media screen and (max-width: 767px){
+        padding-bottom: 0.3333rem;
+       background-position: -0.1222rem -0.4111rem;
+       margin-top: -0.4444rem;
+
+    }
+}
+
+@mixin phone-pets2-card1-name {
+    @media screen and (max-width: 767px){
+        margin-bottom: 0.5556rem;
+    }
+}
+
+@mixin phone-pets2-card2 {
+    @media screen and (max-width: 767px){
+        padding-bottom: 0.3333rem;
+        background-position: -0.1222rem -0.4111rem; 
+        margin-top: 0.2222rem;
+
+       }
+}
+
+@mixin phone-pets2-card2-name {
+    @media screen and (max-width: 767px){
+        margin-bottom: 0.4rem;
+    }
+}
+@mixin phone-pets2-card3 {
+    @media screen and (max-width: 767px){
+        margin-top: 0.2222rem;
+    }
+}
+@mixin phone-pets2-card4 {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-pets2-card5 {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-pets2-card5-name {
+    @media screen and (max-width: 767px){
+        padding-bottom: 1.5556rem;
+    }
+}
+
+@mixin phone-pets2-card6 {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-pets2-card6-name {
+    @media screen and (max-width: 767px){
+        padding-top: 0.1222rem;
+        padding-left: 0.2222rem;
+
+    }
+}
+
+@mixin phone-pets2-card7 {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-pets2-card8 {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-pets2-cardBtn5 {
+    @media screen and (max-width: 767px){
+        margin-bottom: 0.7667rem;
+}
+}
+
+@mixin phone-pets2-cardBtn6 {
+    @media screen and (max-width: 767px){
+        margin-bottom: 0.4444rem;
+    }
+}
+
+@mixin phone-arrownavigation {
+    @media screen and (max-width: 767px){
+        width: 16.6667rem;
+height: 2.8889rem;
+padding-bottom: 0.7778rem;
+
+    }
+}
+
+@mixin phone-footer2AddressAddress {
+    @media screen and (max-width: 767px){
+        padding-top: 0.2222rem;
+
+    }
+}
+
+
+
+@mixin phone-carddsWrapper {
+    @media screen and (max-width: 767px){
+width: 15rem;       
+min-height: 24.2222rem;
+
+    }
+}
+
+@mixin phone-carousel {
+    @media screen and (max-width: 767px){
+        width: 45rem;
+        height: 100%;
+        left: -15rem;
+
+    }
+}
+
+@mixin phone-slider {
+    @media screen and (max-width: 767px){
+        width: 14.6667rem;
+
+    }
+}
+
+
+
+
+
+@mixin phone-popupCard {
+    @media screen and (max-width: 767px){
+        width: 13.3333rem;
+        min-height: 25rem;
+        top: 10vh;
+
+    }
+}
+
+@mixin phone-popupCardImg {
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+@mixin phone-popupCardInfo {
+    @media screen and (max-width: 767px){
+        width: 100%;
+    }
+}
+
+@mixin phone-popupCardWrap {
+    @media screen and (max-width: 767px){
+        width: 12.2222rem;
+        
+    }
+}
+
+@mixin phone-popupHeading {
+    @media screen and (max-width: 767px){
+        width: 8.5556rem;
+        
+    }
+}
+
+@mixin phone-popupSubheading {
+    @media screen and (max-width: 767px){
+        width: 8.3333rem;
+        
+    }
+}
+
+@mixin phone-popupText {
+    @media screen and (max-width: 767px){
+        width: 12.2222rem;
+        margin-bottom: 106px;
+
+        
+    }
+}
